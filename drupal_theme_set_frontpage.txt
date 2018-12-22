@@ -1,0 +1,20 @@
+For changes default home page
+some important things
+
+set front using settings
+Step 1: Log into your Drupal 7 dashboard
+Step 2: In the top menu, click Configuration
+Step 3: Under System click Site Information
+Step 4: Under FRONT PAGE, adjust the Default front page setting.
+Be sure to pay attention to the following note if you want to disable this specific front page:
+Optionally, specify a relative URL to display as the front page. Leave blank to display the default content feed.
+Step5: Click the Save Configuration button at the bottom of the page to save these settings.
+
+
+For set the front page
+In Drupal 7, copy the page.tpl.php file and name it page--front.tpl.php.
+
+1)Create a template file with the following naming conventionpage--front.tpl.php in your active theme directory.
+2)Paste in solid, static HTML, with appropriate file path fixes.
+3)Compare your template file with the default page.tpl.php in the theme folder and edit and needed.
+4)You can put $content in the middle, sidebars in a useful place for you to call blocks into later, and the $footer in your footer zone, etc. Try to copy as much as possible - most of it can be useful, and is the real reason for using a CMS.
